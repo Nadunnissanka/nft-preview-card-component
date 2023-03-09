@@ -27,7 +27,7 @@
             display: block;
             width: 17rem;
             height: 17rem;
-            margin: 1rem;
+            margin: 1.2rem;
             transition: .5s ease;
             backface-visibility: hidden;
             border-radius: 0.6rem;
@@ -60,7 +60,7 @@
         color: hsl(0, 0%, 100%);
         font-weight: 600;
         max-width: 17rem;
-        margin-inline: 1rem;
+        margin-inline: 1.2rem;
         font-size: 1.4rem;
         letter-spacing: 0.04rem;
         transition: .5s ease;
@@ -71,14 +71,14 @@
     .nft-paragraph {
         color: hsl(215, 51%, 70%);
         max-width: 17rem;
-        margin: 1rem 1rem 1.7rem 1rem;
+        margin: 1.2rem 1.2rem 1.7rem 1.2rem;
     }
 }
 
 .nft-price {
     display: flex;
     justify-content: space-between;
-    margin-inline: 1rem;
+    margin-inline: 1.2rem;
     margin-block: 1rem;
     &-block {
         display: flex;
@@ -101,7 +101,7 @@
 .creator {
     display: flex;
     gap: 0.8rem;
-    margin-inline: 1rem;
+    margin-inline: 1.2rem;
     padding-block: 1rem 2rem;
     border-top: 1px solid hsl(215, 32%, 27%);
     img {
