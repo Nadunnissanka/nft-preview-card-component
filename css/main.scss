@@ -83,17 +83,20 @@
     &-block {
         display: flex;
         gap: 0.5rem;
+        min-width: 100px;
         .content {
             display: flex;
             font-size: 1rem;
             align-items: center;
             color:  hsl(178, 100%, 50%);
+            justify-content: flex-start;
         }
         .days {
             display: flex;
             font-size: 1rem;
             align-items: center;
             color: hsl(215, 51%, 70%);
+            justify-content: flex-end;
         }
     }
 }
